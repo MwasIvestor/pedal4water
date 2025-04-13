@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedal4Water | Cycling for Clean Water</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      color: #0077b6;
+      margin-bottom: 1rem;
+    }
+    .cta-buttons a {
+      display: inline-block;
+      margin: 1rem 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #00b4d8;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .impact-list {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pedal4Water</h1>
+    <p>Cycling Toward Clean Water for All</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#how">How It Works</a>
+      <a href="#impact">Impact</a>
+      <a href="#support">Support</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="cta-buttons">
+      <a href="#support">Donate Now</a>
+      <a href="#how">See How It Works</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Our Mission</h2>
+    <p>
+      At <strong>Pedal4Water</strong>, we’re revolutionizing how rural communities access clean water by transforming bicycles into life-saving tools. Our innovative bike attachments help families pump, carry, and deliver clean water—faster and easier. We're starting in Kenya, where millions walk miles daily just to access unsafe water.
+    </p>
+  </section>
+
+  <section id="how">
+    <h2>How It Works</h2>
+    <p><strong>Step 1:</strong> 🚴 Custom Bike Builds – We retrofit local bikes with jerry can holders and pump attachments.</p>
+    <p><strong>Step 2:</strong> 💧 Pump & Transport Water – Pedaling powers a pump or allows larger water loads to be carried.</p>
+    <p><strong>Step 3:</strong> 🌍 Deliver Impact – Each water bike helps reduce time spent fetching water by 70%.</p>
+  </section>
+
+  <section id="impact">
+    <h2>Real Change, Real Fast</h2>
+    <ul class="impact-list">
+      <li>3 villages reached ✅</li>
+      <li>120+ households served ✅</li>
+      <li>18,000+ liters of clean water moved monthly ✅</li>
+      <li>7 young people trained in bike assembly ✅</li>
+    </ul>
+    <blockquote>"I used to walk 3 hours for water. Now I ride 20 minutes. It's changed my life." – <em>Grace, 14, Turkana</em></blockquote>
+  </section>
+
+  <section id="support">
+    <h2>Be a Water Warrior</h2>
+    <p>Help us reach more communities by supporting our mission:</p>
+    <ul class="impact-list">
+      <li>🎯 Donate a Bike ($250 = 1 full bike setup)</li>
+      <li>🤝 Sponsor a Village</li>
+      <li>📢 Share Our Story</li>
+      <li>🔨 Volunteer Skills (engineering, marketing, etc.)</li>
+    </ul>
+    <a href="#" class="cta-buttons">Donate via PayPal</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@pedal4water.org</p>
+    <p>Phone/WhatsApp: +254 700 000 000</p>
+    <p>Instagram | Facebook | Twitter: @pedal4water</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pedal4Water. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
